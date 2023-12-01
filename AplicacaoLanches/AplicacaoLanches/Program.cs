@@ -1,7 +1,23 @@
+using AplicacaoLanches.Context;
+using AplicacaoLanches.Repository;
+using AplicacaoLanches.Repository.InterfacesRepository;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddControllersWithViews();
+
+
+
+builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+builder.Services.AddScoped<ILancheRepository, LancheRepository>();
+
+
+builder.Services.AddDbContext<AppDbContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("StringSqlServer")));
+
+
 
 var app = builder.Build();
 

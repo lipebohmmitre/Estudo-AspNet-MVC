@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuário\\Desktop\\Projeto\\AplicacaoLanches\\AplicacaoLanches\\AplicacaoLanches.csproj": {}
+    "C:\\Users\\Usuário\\Desktop\\Projeto\\Estudo-AspNet-MVC\\AplicacaoLanches\\AplicacaoLanches\\AplicacaoLanches.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuário\\Desktop\\Projeto\\AplicacaoLanches\\AplicacaoLanches\\AplicacaoLanches.csproj": {
+    "C:\\Users\\Usuário\\Desktop\\Projeto\\Estudo-AspNet-MVC\\AplicacaoLanches\\AplicacaoLanches\\AplicacaoLanches.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuário\\Desktop\\Projeto\\AplicacaoLanches\\AplicacaoLanches\\AplicacaoLanches.csproj",
+        "projectUniqueName": "C:\\Users\\Usuário\\Desktop\\Projeto\\Estudo-AspNet-MVC\\AplicacaoLanches\\AplicacaoLanches\\AplicacaoLanches.csproj",
         "projectName": "AplicacaoLanches",
-        "projectPath": "C:\\Users\\Usuário\\Desktop\\Projeto\\AplicacaoLanches\\AplicacaoLanches\\AplicacaoLanches.csproj",
+        "projectPath": "C:\\Users\\Usuário\\Desktop\\Projeto\\Estudo-AspNet-MVC\\AplicacaoLanches\\AplicacaoLanches\\AplicacaoLanches.csproj",
         "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuário\\Desktop\\Projeto\\AplicacaoLanches\\AplicacaoLanches\\obj\\",
+        "outputPath": "C:\\Users\\Usuário\\Desktop\\Projeto\\Estudo-AspNet-MVC\\AplicacaoLanches\\AplicacaoLanches\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,32 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
